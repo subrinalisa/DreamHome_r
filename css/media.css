@@ -1,7 +1,13 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-.banner h1{
-	font-size: 30px;
+.banner{
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.custom_bg{
+	background: transparent;
 }	
 }
 
