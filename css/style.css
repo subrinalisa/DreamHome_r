@@ -1,15 +1,17 @@
 *{
 	font-family: 'Roboto', sans-serif;
 }
-/*banner start*/
-.banner{
-	min-height: 100vh;
+/*header start*/
+header{
 	background: url(../images/bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.banner{
+	padding: 200px 0;
+}
 .custom_bg{
 	background: rgba(0,0,0,0.5);
 }
-/*banner end*/
+/*header end*/
