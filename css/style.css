@@ -1,0 +1,12 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+/*banner start*/
+.banner{
+	padding: 120px 0 200px;
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*banner end*/
