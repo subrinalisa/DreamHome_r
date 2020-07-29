@@ -3,10 +3,13 @@
 }
 /*banner start*/
 .banner{
-	padding: 120px 0 200px;
+	min-height: 100vh;
 	background: url(../images/bg.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+.custom_bg{
+	background: rgba(0,0,0,0.5);
 }
 /*banner end*/
