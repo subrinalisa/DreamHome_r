@@ -1,17 +1,119 @@
-*{
-	font-family: 'Roboto', sans-serif;
+body {
+    font-family: sans-serif;
+    color: #646D7C;
 }
 /*header start*/
-header{
-	background: url(../images/bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+header {
+    padding: 15px 0;
 }
-.banner{
-	padding: 200px 0;
+.menu ul li a {
+    font-weight: 600;
+    color: #646D7C !important;
+    text-transform: uppercase;
+    margin: 0 10px;
+    transition: 0.3s ease;
 }
-.custom_bg{
-	background: rgba(0,0,0,0.5);
+.menu ul li a:hover,
+.menu ul li .active {
+    color: #fff !important;
+    background: #465D7F;
+    border-radius: 4px;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
 }
 /*header end*/
+/*banner start*/
+#banner {
+    padding: 150px 0 200px;
+    background-image: url(../images/bannerbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px 40px;
+}
+.banner_content h1 {
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin: ;
+}
+.banner_content p {
+    color: #fff;
+}
+.banner_content button {
+    color: #CAC0C1;
+    background-color: #372E31;
+    transition: 0.3s ease;
+}
+.banner_content button:hover {
+    color: #fff;
+}
+/*banner end*/
+/*service start*/
+#service {
+    padding: 30px 0 90px;
+}
+.s_single {
+    text-align: center;
+    margin-top: 60px;
+}
+.s_single h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 18px;
+}
+.s_single p {
+    margin: 18px 0;
+}
+.s_single button {
+    color: #fff;
+    text-transform: capitalize;
+    padding: 4px 30px;
+    background: #465D7F;
+    border-radius: 0;
+    transition: 0.3s ease;
+}
+.s_single button:hover {
+    color: #465D7F;
+    border: 1px solid #465D7F;
+    background: #fff;
+}
+/*service end*/
+/*footer start*/
+footer {
+    text-align: center;
+}
+footer p {
+    margin-bottom: 8px;
+}
+footer ul {
+    margin: 8px 0
+}
+footer ul li a,
+footer ul li a:hover {
+    font-size: 20px;
+    margin: 0 5px;
+    color: #fff;
+}
+.fb {
+    background: #2B6DD2;
+    padding: 5px 10px;
+}
+.tw {
+    background: #3AA7BE;
+    padding: 5px;
+}
+.gp {
+    background: #D04C35;
+    padding: 5px;
+}
+.rss {
+    background: #F59D18;
+    padding: 5px;
+}
+/*footer end*/

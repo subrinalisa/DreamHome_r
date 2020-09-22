@@ -1,35 +1,49 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-header{
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+    .menu ul li a {
+        margin: 6px 0 0;
+    }
+    .banner_content {
+        background: transparent;
+    }
+    #service {
+        padding: 0 0 40px;
+    }
+    .s_single {
+        margin-top: 40px;
+    }
+    .s_single h2 {
+        font-size: 24px;
+    }
 }
-.banner{
-	padding: 100px 0;
-}
-.custom_bg{
-	background: transparent;
-}	
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
-	
+    .menu ul li a {
+        margin: 6px 0 0;
+    }
+    .banner_content {
+        background: transparent;
+    }
+    #service {
+        padding: 0 0 40px;
+    }
+    .s_single {
+        margin-top: 40px;
+    }
+    .s_single h2 {
+        font-size: 24px;
+    }
 }
-
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-	
+    .menu ul li a {
+        margin: 6px 0 0;
+    }
+    .banner_content {
+        padding: 30px 15px;
+    }
 }
-
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199.98px) {
-	
-}
-
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	
-}
+@media (min-width: 1200px) {}
